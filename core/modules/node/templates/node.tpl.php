@@ -93,10 +93,8 @@
   <?php print render($title_suffix); ?>
 
   <?php if ($display_submitted): ?>
-    <footer>
       <?php print $user_picture; ?>
       <p class="submitted"><?php print $submitted; ?></p>
-    </footer>
   <?php endif; ?>
 
   <div class="content clearfix"<?php print backdrop_attributes($content_attributes); ?>>
